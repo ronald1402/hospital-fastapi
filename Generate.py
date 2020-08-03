@@ -5,7 +5,7 @@ db = mysql.connector.connect(
   host="localhost",
   user="root",
   passwd="Zicare_dev",
-  database="zicareDB"
+  database="zihospital"
 )
 
 cursor = db.cursor()
